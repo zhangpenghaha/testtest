@@ -1,0 +1,50 @@
+{"is_success": {
+  "username": "13333333333",
+  "pwd": "123456",
+  "code": "8888",
+  "is_success": true,
+  "expect": "我的账户"
+},
+  "username_error": {
+    "username": "18312222343",
+    "pwd": "123456",
+    "code": "8888",
+   "is_success": false,
+    "expect": "账号不存在"
+  },
+  "passwoord_error": {
+    "username": "13333333333",
+    "pwd": "12345688",
+    "code": "8888",
+   "is_success": false,
+    "expect": "密码错误"
+},
+   "code_error": {
+    "username": "13333333333",
+    "pwd": "123456",
+    "code": "888",
+   "is_success": false,
+    "expect": "验证码错误"
+},
+   "passwoord_error3": {
+    "username": "13333333333",
+    "pwd": "123456",
+    "code": "",
+   "is_success": false,
+    "expect": "验证码不能为空"
+},
+   "passwoord_error2": {
+    "username": "13333333333",
+    "pwd": "",
+    "code": "8888",
+   "is_success": false,
+    "expect": "密码不能为空"
+},
+   "passwoord_error4": {
+    "username": "",
+    "pwd": "123456",
+    "code": "8888",
+   "is_success": false,
+    "expect": "用户名不能为空"
+}
+}
